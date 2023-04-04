@@ -1,27 +1,29 @@
 # ShoppingRecipeApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+This is a shopping recipe app, where you can find recipes and save their ingredients for your shopping list. These items are saved in the Firebase DB so you can save or fetch it anytime.
 
-## Development server
+https://user-images.githubusercontent.com/88943189/229737632-0c2a2682-5710-43c8-a141-da5c9e344e06.mp4
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Stack
+- Angular 14
+- RxJS
+- Typescript
+- VScode + Prettier
+- Firebase DB
 
-## Code scaffolding
+## User can
+- Make new recipes with or without ingredients
+- Can fetch recipes from database and save it to the database
+- Edit existing recipes
+- Add ingredients to shopping lists or forward recipes ingredients to shopping list
+- Delete ingredients, or delete recipes
+- View recipes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Challenges and highlights
+- Angular application using Firebase DB
+- Clean structure, code
+- Custom directive - dropdown
+- Ingredient model interface
+- Services - singleton pattern
+- Resolver - to prefetch data
+- Using all the essential Angular basics (databinding, directives, services & dependency injection, routing & guards, RxJS, HTTPClient Module, Reactive + Template Driven Forms, Pipes)
